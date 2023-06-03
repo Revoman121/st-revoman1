@@ -1,5 +1,5 @@
 import streamlit as st
-import cv2
+import opencv-python
 import pytesseract
 from PIL import Image
 import io
