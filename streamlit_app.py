@@ -5,7 +5,8 @@ from PIL import Image
 import io
 
 # Set up the Tesseract OCR executable path
-pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract
+'
 
 
 # Define a function to perform OCR on the selected image and display the result
